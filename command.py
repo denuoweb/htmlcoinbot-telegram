@@ -58,7 +58,7 @@ def tip(bot,update):
 				balance = str(balance)
 				amount = str(amount) 
 				tx = subprocess.run([core,"move",user,target,amount],stdout=subprocess.PIPE)
-				bot.send_message(chat_id=update.message.chat_id, text="@{0} tipped @{1} of {2} HTML".format(user, target, amount))
+				bot.send_message(chat_id=update.message.chat_id, text="@{0} tipped @{1} {2} HTML".format(user, target, amount))
 		else: 
 			bot.send_message(chat_id=update.message.chat_id, text="Error that user is not applicable.")
 
