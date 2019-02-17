@@ -117,9 +117,6 @@ dispatcher.add_handler(withdraw_handler)
 deposit_handler = CommandHandler('deposit', deposit)
 dispatcher.add_handler(deposit_handler)
 
-price_handler = CommandHandler('price', price)
-dispatcher.add_handler(price_handler)
-
 tip_handler = CommandHandler('tip', tip)
 dispatcher.add_handler(tip_handler)
 
