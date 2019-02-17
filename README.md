@@ -1,4 +1,4 @@
-# Htmlbot - Telegram Htmlcoin Tipbot.
+# Htmlcoinbot - Telegram Htmlcoin Tipbot.
  
 #### Htmlcoin crypto currency tipbot for [Telegram](https://telegram.org)
 
