@@ -103,7 +103,7 @@ def withdraw(bot,update):
 		else:
 			amount = str(amount)
 			tx = subprocess.run([core,"sendfrom",user,address,amount],stdout=subprocess.PIPE)
-			bot.send_message(chat_id=update.message.chat_id, text="@{0} has successfully withdrawn to address: {1} Amount: {2} HTML - gas" .format(user,address,amount))
+			bot.send_message(chat_id=update.message.chat_id, text="@{0} has successfully withdrawn to address: {1} Amount: {2} HTML + gas" .format(user,address,amount))
 
 			
 from telegram.ext import CommandHandler
