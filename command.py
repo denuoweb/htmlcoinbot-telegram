@@ -84,8 +84,6 @@ def balance(bot,update):
 		balance =  str(round(balance,3))
 		bot.send_message(chat_id=update.message.chat_id, text="@{0} your current balance is: {1} HTML ≈  ${2}".format(user,balance,fiat_balance))
 
-+ " ฿")
-
 def withdraw(bot,update):
 	user = update.message.from_user.username
 	if user is None:
